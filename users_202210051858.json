@@ -1,0 +1,15 @@
+{
+"users": [
+	{
+		"id" : 1,
+		"name" : "fakhri",
+		"email" : "fakhri@email.com",
+		"password" : "fakhri123"
+	},
+	{
+		"id" : 2,
+		"name" : "ridho",
+		"email" : "fakhri@fazztrack.com",
+		"password" : "ridho456"
+	}
+]}
