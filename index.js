@@ -16,6 +16,7 @@ postgreDb
     console.log("DB connected");
 
     // Untuk parsing body yang berbentuk json dan urlencoded
+    server.use(express.json());
     server.use(express.urlencoded({ extended: false }));
 
     // Semua request akan didelegasikan ke main router
