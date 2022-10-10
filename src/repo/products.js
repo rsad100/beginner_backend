@@ -28,7 +28,7 @@ const getProducts = (queryParams) => {
     if (queryParams.sort == "unpopular") {
       query += ` order by sold asc`;
     }
-    if (queryParams.func == "popular") {
+    if (queryParams.sort == "popular") {
       query += ` order by sold desc`;
     }
     if (queryParams.sort == "cheap") {
