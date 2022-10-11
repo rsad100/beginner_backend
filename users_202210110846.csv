@@ -1,0 +1,6 @@
+"id_user","email","password","phone_number","address","display_name","first_name","last_name","birthday","gender","image_user"
+1,johndoe@email.com,"1234","81316536779",Bogor,John,John,Doe,1990-12-08,Male,https://john.jpeg
+3,mariejane@email.com,password1234,"81309904098",Jakarta,Marie,Marie,Jane,2000-01-01,Female,https://marie.jpeg
+5,petersmith@email.com,password100,"81312309414",Bandung,Peter,Peter,Smith,2001-02-15,Male,https://peter.jpeg
+7,marthapalmer@email.com,lolthisis,"81341581905",Yogyakarta,Martha,Martha,Palmer,2003-04-09,Female,https://martha.jpeg
+6,joeanderson@email.com,dudeletme,"81315108301",Aceh,Joe,Joe,Anderson,2002-03-21,Male,https://joe.jpeg

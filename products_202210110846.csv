@@ -1,0 +1,6 @@
+"id_product","image_product","name_product","price","desc_product","size","delivery","starthours","endhours","stock","category","sold"
+4,https://hazelnut.jpeg,Hazelnut Latte,25000,Hazelnut Latte,"R, L, XL","Home Delivery, Dine in, Take away",08:15:00,17:00:00,100,Coffee,"110"
+9,https://friedrice.jpeg,Summer fried rice,32000,Summer fried rice,"R, L, XL","Home Delivery, Dine in, Take away",08:30:00,16:15:00,100,Food,"120"
+10,https://creamylatte.jpeg,Creamy Ice Latte,27000,Creamy Ice Latte,"R, L, XL","Home Delivery, Dine in, Take away",08:45:00,16:30:00,100,Coffee,"130"
+11,https://drumsticks.jpeg,Drum Sticks,30000,Drum Sticks,"R, L, XL","Home Delivery, Dine in, Take away",09:00:00,16:45:00,100,Food,"140"
+12,https://veggie_tomato.jpeg,Veggie tomato mix,34000,Veggie tomato mix,"R, L, XL","Home Delivery, Dine in, Take away",08:00:00,15:00:00,100,Food,"100"
