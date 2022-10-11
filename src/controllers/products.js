@@ -16,8 +16,9 @@ const get = async (req, res) => {
 const create = async (req, res) => {
   try {
     const response = await productsRepo.createProducts(req.body);
+    res.response;
     res.status(201).json({
-      result: response,
+      result: "Data Created Successfully",
     });
   } catch (err) {
     res.status(500).json({ msg: "Internal Server Error" });
@@ -27,7 +28,8 @@ const create = async (req, res) => {
 const edit = async (req, res) => {
   try {
     const response = await productsRepo.editProducts(req.body, req.params);
-    res.status(200).json({ result: response });
+    res.response;
+    res.status(200).json({ msg: "Data Changed Successfully" });
   } catch (err) {
     res.status(500).json({ msg: "Internal Server Error" });
   }
@@ -36,7 +38,8 @@ const edit = async (req, res) => {
 const drop = async (req, res) => {
   try {
     const result = await productsRepo.deleteProducts(req.params);
-    res.status(200).json({ result });
+    res.reponse;
+    res.status(200).json({ msg: "Data Deleted Successfully" });
   } catch (err) {
     res.status(500).json({ msg: "Internal Server Error" });
   }
