@@ -23,7 +23,7 @@ const getProducts = (queryParams) => {
       query += ` order by endhours asc`;
     }
     if (queryParams.sort == "latest_end") {
-      query += ` order by endhours dsc`;
+      query += ` order by endhours desc`;
     }
     if (queryParams.sort == "unpopular") {
       query += ` order by sold asc`;

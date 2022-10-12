@@ -3,10 +3,10 @@ const postgreDb = require("../config/postgre");
 const getPromos = (queryParams) => {
   return new Promise((resolve, reject) => {
     let query =
-      "SELECT id_promo, image_promo, name_promo, normal_price, desc_promo, product_size, promos.delivery, discount, start_date, end_date, code, name_product FROM promos INNER JOIN products ON promos.id_product=products.id_product";
+      "select id_promo, image_promo, name_promo, normal_price, desc_promo, product_size, promos.delivery, discount, start_date, end_date, code, name_product FROM promos INNER JOIN products ON promos.id_product=products.id_product";
     const values = [];
     if (queryParams.keyword) {
-      query += ` where lower(name_promo) like ('%${queryParams.keyword}%')`;
+      query += ` where lower(name_promo) like lower('%${queryParams.keyword}%')`;
     }
 
     console.log(query);

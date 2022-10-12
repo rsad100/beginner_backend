@@ -7,9 +7,7 @@ const get = async (req, res) => {
       result: response.rows,
     });
   } catch (err) {
-    res.status(500).json({
-      msg: "Internal Server Error",
-    });
+    res.status(500).json({ msg: "Internal Server Error" });
   }
 };
 

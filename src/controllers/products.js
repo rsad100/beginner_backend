@@ -7,9 +7,7 @@ const get = async (req, res) => {
       result: response.rows,
     });
   } catch (err) {
-    res.status(500).json({
-      msg: "Internal Server Error",
-    });
+    res.status(500).json({ msg: "Internal Server Error" });
   }
 };
 
@@ -17,9 +15,7 @@ const create = async (req, res) => {
   try {
     const response = await productsRepo.createProducts(req.body);
     res.response;
-    res.status(201).json({
-      result: "Data Created Successfully",
-    });
+    res.status(201).json({ result: "Data Created Successfully" });
   } catch (err) {
     res.status(500).json({ msg: "Internal Server Error" });
   }

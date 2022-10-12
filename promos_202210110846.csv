@@ -1,6 +1,0 @@
-"id_promo","image_promo","name_promo","normal_price","desc_promo","product_size","delivery","discount","start_date","end_date","code","id_product"
-3,https://hzelnut_latte.jpeg,Hazelnut Latte,25000,Diskon 20%,"250 gr, 300gr, 500gr","Home Delivery, Dine in","20%",2020-10-07,2020-10-10,FNPR15RG,4
-6,https://creamy_latte.jpeg,Creamy Ice Latte,27000,Diskon 50%,"300gr",Dine in,"50%",2020-05-03,2020-05-08,CILTEE50PR,10
-7,https://drum_sticks.jpeg,Drum Sticks,30000,Diskon 30%,"500gr",Take away,"30%",2020-03-01,2020-03-29,DRMSTKS30,11
-8,https://summer_fried_rice.jpeg,Summer fried rice,32000,Diskon 40%,R,Take away,"40%",2020-04-21,2020-04-25,SMRFRD40,9
-4,https://veggie_tomato_mix.jpeg,Veggie tomato mix,34000,Diskon 10%,"250gr",Home Delivery,"10%",2020-11-05,2020-11-09,VGTMX10D,12
